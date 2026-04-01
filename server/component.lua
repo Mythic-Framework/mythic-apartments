@@ -12,6 +12,7 @@ function RetrieveComponents()
 	Apartment = exports["mythic-base"]:FetchComponent("Apartment")
 	Police = exports["mythic-base"]:FetchComponent("Police")
 	Pwnzor = exports["mythic-base"]:FetchComponent("Pwnzor")
+	Version = exports["mythic-base"]:FetchComponent("Version")
 end
 
 AddEventHandler("Core:Shared:Ready", function()
@@ -25,15 +26,18 @@ AddEventHandler("Core:Shared:Ready", function()
 		"Apartment",
 		"Police",
 		"Pwnzor",
+		"Version",
 	}, function(error)
 		if #error > 0 then
-            
+
 			return
 		end
 		RetrieveComponents()
 		RegisterCallbacks()
 		RegisterMiddleware()
 		Startup()
+
+		Version:Check('Mythic-Framework/Mythic-VersionCheckers', GetCurrentResourceName())
 	end)
 end)
 
