@@ -1,4 +1,4 @@
-_aptData = {
+ _aptData = {
 	{
 		name = "Boring Tower",
 		invEntity = 13,
@@ -14,60 +14,60 @@ _aptData = {
 		},
 		interior = {
 			wakeup = {
-				x = 351.1,
-				y = -201.598,
-				z = 53.1,
-				h = 68.261,
+				x = -459.262,
+				y = -682.010,
+				z = 65.894,
+				h = 90.0,
 			},
 			spawn = {
-				x = 347.826,
-				y = -200.121,
-				z = 54.239,
-				h = 243.706
+				x = -461.324,
+				y = -685.468,
+				z = 66.856,
+				h = 356.578,
 			},
 			locations = {
 				exit = {
-					coords = vector3(347.41, -199.9, 54.24),
-					length = 0.4,
-					width = 1.2,
+					coords = vector3(-461.21, -686.15, 66.86),
+					length = 0.8,
+					width = 2.6,
 					options = {
-						heading = 69,
+						heading = 0,
 						--debugPoly=true,
-						minZ = 53.24,
-						maxZ = 55.64
+						minZ = 65.86,
+						maxZ = 68.46
 					},
 				},
 				wardrobe = {
-					coords = vector3(351.89, -205.34, 54.23),
-					length = 0.4,
+					coords = vector3(-461.71, -682.72, 66.86),
+					length = 1.0,
 					width = 2.0,
 					options = {
-						heading = 339,
+						heading = 270,
 						--debugPoly=true,
-						minZ = 53.23,
-						maxZ = 56.23
+						minZ = 65.86,
+						maxZ = 68.06
 					},
 				},
 				stash = {
-					coords = vector3(348.69, -208.74, 54.23),
+					coords = vector3(-456.63, -682.55, 66.89),
 					length = 2.4,
 					width = 1.0,
 					options = {
-						heading = 339,
+						heading = 0,
 						--debugPoly=true,
-						minZ = 53.23,
-						maxZ = 54.63
+						minZ = 65.89,
+						maxZ = 67.29
 					},
 				},
 				logout = {
-					coords = vector3(346.02, -207.23, 54.23),
-					length = 2.0,
+					coords = vector3(-458.43, -681.88, 66.89),
+					length =3.0,
 					width = 2.8,
 					options = {
-						heading = 338,
+						heading = 0,
 						--debugPoly=true,
-						minZ = 51.83,
-						maxZ = 54.03
+						minZ = 65.89,
+						maxZ = 67.09
 					},
 				},
 			},
